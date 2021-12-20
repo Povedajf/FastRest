@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/models/proto_model.dart';
+import 'package:flutter_application_1/models/platos_model.dart';
 import 'package:flutter_application_1/services/platos_services.dart';
 import 'package:flutter_application_1/widgets/card_comida.dart';
 
@@ -15,7 +15,7 @@ class _ComidaWidgetState extends State<ComidaWidget> {
 
 
   final  PlatosService _platosserviceapp =  PlatosService();
-  List<FieldsProto>? _listaplatos;
+  List<Plato>? _listaplatos;
 
 
   @override
