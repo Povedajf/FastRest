@@ -18,7 +18,7 @@ class CardPlatos extends StatelessWidget {
                   image: NetworkImage(url.toString()), fit: BoxFit.fitWidth)),
         child: ListTile(
           title: Text(model.fieldsProto!.nombrePlato!.stringValue.toString(),
-              style: Theme.of(context).textTheme.headline6),
+              style: Theme.of(context).textTheme.headline6,),
           subtitle: Text(
               model.fieldsProto!.descripcionPlato!.stringValue!.toString(),
               style: Theme.of(context).textTheme.subtitle2),
