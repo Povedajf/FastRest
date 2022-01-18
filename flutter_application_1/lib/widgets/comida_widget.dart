@@ -5,7 +5,7 @@ import 'package:flutter_application_1/services/platos_services.dart';
 import 'package:flutter_application_1/widgets/card_comida.dart';
 
 class ComidaWidget extends StatefulWidget {
-  ComidaWidget({Key? key}) : super(key: key);
+  const ComidaWidget({Key? key}) : super(key: key);
 
   @override
   _ComidaWidgetState createState() => _ComidaWidgetState();
@@ -25,6 +25,7 @@ class _ComidaWidgetState extends State<ComidaWidget> {
   }
 
 
+  @override
   Widget build(BuildContext context) {
     return _listaplatos == null
         ? const Center(
